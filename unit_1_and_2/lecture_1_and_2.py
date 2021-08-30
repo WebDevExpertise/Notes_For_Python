@@ -2,7 +2,7 @@
 
 print('hello world') # prints "hello world" onto the console/terminal
 
-# Unit 2
+# Unit 2 - Variables & Data Types
     # 2.1 - Creating Variables
 
 x = 5 # variable name, then = sign, then data/content you want the variable to store
