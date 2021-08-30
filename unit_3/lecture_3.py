@@ -35,13 +35,21 @@ print(favorite_food) # prints ['steak', 'chicken', 'mac and cheese', 'biryani', 
 
 # Removing items from a list
 
-classes = ['english', 'spanish', 'math', 'history', 'science', 'physical education']
+classes = ['english', 'spanish', 'math', 'history', 'science', 'art', 'computer science', 'physical education']
 
 classes.pop() # removes the last item from the list
 
-print(classes) # prints ['english', 'spanish', 'math', 'history', 'science'] onto the console/terminal
+print(classes) # prints ['english', 'spanish', 'math', 'history', 'science', 'art', 'computer science'] onto the console/terminal
 
 classes.pop(1) # removes the item in the list whose index is 1, which is spanish
+
+print(classes) # prints ['english', 'math', 'history', 'science', 'art', 'computer science'] onto the console/terminal
+
+classes.remove('art') # removes 'art' from the list
+
+print(classes) # prints ['english', 'math', 'history', 'science', 'computer science'] onto the console/terminal
+
+del classes[4] # removes the item that is at index 4, which is computer science
 
 print(classes) # prints ['english', 'math', 'history', 'science'] onto the console/terminal
 
