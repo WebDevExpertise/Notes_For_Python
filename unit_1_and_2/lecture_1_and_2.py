@@ -1,4 +1,4 @@
-# Unit 1: Print statements
+# Unit 1: Print Statements
 
 print('hello world') # prints "hello world" onto the console/terminal
 
@@ -11,19 +11,19 @@ print(x) # prints 5
 
 # The data types in Python include: Integers/Whole Numbers, Floating-Point Numbers, Booleans, Strings
 
-    # 2.2 - Reassigning a variable
+    # 2.2 - Reassigning a Variable
 
 x = 10
 
 print(x) # prints 10 instead of 5
 
-    # 2.3 & 2.7 - f strings
+    # 2.3 & 2.7 - "f" Strings
 
 car = 'bmw'
 
 print(f'I recently got a {car}') # prints "I recently got a bmw" onto the consoloe/terminal
 
-    # 2.4 - String methods
+    # 2.4 - String Methods
 
 name = 'John doe'
 
@@ -33,7 +33,7 @@ print(name.lower()) # prints "john doe" onto the console/terminal. The .lower() 
 
 print(name.title()) # prints "John Doe" onto the console/terminal. The .title() turns the first letter in every word to an uppercase letter
 
-    # 2.5 - Printing quotation marks
+    # 2.5 - Printing Quotation Marks
  & 
 print('Joe put "A" as his answer on the test') # prints 'Joe put "A" as his answer on the test' onto the console/terminal
 
