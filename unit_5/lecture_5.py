@@ -67,3 +67,11 @@ elif available_games == 'madden 21':
     print('There is only a madden 21 game available at best buy right now')
 else:
     print(f"2k 21 and madden 21 aren't available right now. There's only a {available_games} game that's available") # prints "2k 21 and madden 21 aren't available right now. There's only a minecraft game that's available" onto the console/terminal since available_games isn't equal to 2k 21 or madden 21
+
+    # Bonus: Ternary Operators
+
+color = 'green'
+
+color_value = 'color is equal to green' if color == 'green' else 'color is not equal to green' # color_value will be equal to "color is equal to green" if color is equal to green. Else, it will be equal to "color is not equal to green"
+
+print(color_value) # prints "color is equal to green" onto the console/terminal
